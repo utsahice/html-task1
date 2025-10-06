@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, section, footer {
+      padding: 20px;
+    }
+    nav {
+      background-color: #333;
+      color: white;
+    }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    .gallery img {
+      width: 150px;
+      margin: 10px;
+    }
+    form input, form textarea {
+      display: block;
+      margin: 10px 0;
+      width: 100%;
+      max-width: 400px;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header and Navigation -->
+  <header>
+    <h1>My Simple Website</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm an intern in encircletechnologies and i m working on my first task</p>
+  </section>
+
+  <!-- Gallery / Media Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="image.png" alt="Placeholder 1">
+      <img src="image.png" alt="Placeholder 2">
+      <img src="image.png" alt="Placeholder 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Simple Website</p>
+  </footer>
+
+</body>
+</html>
