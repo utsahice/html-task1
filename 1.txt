@@ -1,14 +1,28 @@
 task1:
 What is HTML?
+Hypertext Markup language use tag for build website 
+
 HTML Document Structure (<!DOCTYPE html>, <html>, <head>, <body>)
+basic html Structure <<html lang="en"><head><body>
+
 Headings (<h1> to <h6>)
+<h1>to<h6> big to small text
+
 Paragraphs (<p>)
+add paraghraph text
+
 Line breaks and horizontal rules (<br>, <hr>)
+<br> break the line <hr> break with line
 
 task2:
-Text formatting tags: <b>, <strong>, <i>, <em>, <u>, <mark>, <small>, <del>, <ins>
+Text formatting tags: <b>:bold, <strong>:bold, <i>:italic, <em>:, <u>:underline,
+<mark>:highlight text, <small> :small font, <del>:strike on text, <ins>:underline
+
 Lists: Ordered (<ol>) and Unordered (<ul>) Lists
+<ol> ordered list <ul>underorderd list
+
 Links: <a href=""> and target attribute
+to add hyperlink 
 
 task3:
 Images: <img src="" alt="">
@@ -16,3 +30,9 @@ Image attributes: width, height
 Audio: <audio> with controls
 Video: <video> with controls
 File types and best practices
+
+task4:
+Tables: <table>, <tr>, <td>, <th>, colspan, rowspan, and table styling
+Forms: <form>, <input>, <textarea>, <select>, <option>, <button>
+Input types: text, email, number, checkbox, radio, password, submit
+
