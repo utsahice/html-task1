@@ -1,0 +1,18 @@
+task1:
+What is HTML?
+HTML Document Structure (<!DOCTYPE html>, <html>, <head>, <body>)
+Headings (<h1> to <h6>)
+Paragraphs (<p>)
+Line breaks and horizontal rules (<br>, <hr>)
+
+task2:
+Text formatting tags: <b>, <strong>, <i>, <em>, <u>, <mark>, <small>, <del>, <ins>
+Lists: Ordered (<ol>) and Unordered (<ul>) Lists
+Links: <a href=""> and target attribute
+
+task3:
+Images: <img src="" alt="">
+Image attributes: width, height
+Audio: <audio> with controls
+Video: <video> with controls
+File types and best practices
