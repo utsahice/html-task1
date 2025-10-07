@@ -24,9 +24,14 @@ h2 {
 }
 ul {
   margin-left: 1.5em;
-  font-size: 1rem;        
+  font-size: 1rem;
+ 
 }
-
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    line-height: 2em;
+}
 .example-text {
   margin-top: 2em;
   font-size: 1rem;
