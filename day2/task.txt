@@ -1,0 +1,3 @@
+What is CSS? Syntax & Selectors
+Inline, Internal, and External CSS
+CSS Rules: Selectors, Properties, Values
