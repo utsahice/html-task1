@@ -1,0 +1,19 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+img{ 
+  float: left;
+  height: 50px;
+  width: 50px;
+  clip-path: circle(30%);
+}

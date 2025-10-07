@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-template-columns: 300px 300px;
+    
+
+}
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 300px; 
+  margin: auto;
+  float: left;
+}
+
+.card-img-top {
+  width: 100%;  
+}
+
+.card-body {
+  padding: 16px; 
+}
+
+.card-text {
+  margin-bottom: 12px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-title{
+    text-align: center;
+}
