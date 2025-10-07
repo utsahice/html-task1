@@ -1,0 +1,55 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.title {
+  font-size: 32px;       
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.subtitle {
+  font-size: 20px;     
+  color: gray;
+  margin-bottom: 1.5em;
+}
+
+h2 {
+  font-size: 1.5rem; 
+  margin-top: 2em;
+  color: #333;
+}
+ul {
+  margin-left: 1.5em;
+  font-size: 1rem;        
+}
+
+.example-text {
+  margin-top: 2em;
+  font-size: 1rem;
+}
+
+.name-color {
+  color: navy;
+}
+
+.hex-color {
+  color: #e91e63;
+}
+
+.rgb-color {
+  color: rgb(0, 128, 0);
+}
+
+.hsl-color {
+  color: hsl(200, 50%, 50%);
+}
+
+.footer {
+  margin-top: 3em;
+  font-size: 0.875rem;   
+  color: #666;
+}
